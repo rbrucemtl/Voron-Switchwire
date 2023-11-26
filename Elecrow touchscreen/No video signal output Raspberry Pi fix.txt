@@ -1,0 +1,5 @@
+When works with Raspberry Pi, supports Raspbian, Ubuntu, Kodi, Win10 IOT (need to be configured first), single touch, free driver.
+When work as a computer monitor, supports Windows 10/8/7, plug & play, 5 point touch (XP and older version system: single-point touch), free driver.
+Supports popular game consoles, compatible with XBOX, PS, Switch etc, plug & play, no touch.
+When working with Raspberry Pi 4, please connect to HDMI 0 port.
+When working with Raspberry Pi 4, for the system image of Raspberry Pi after 2021-10-30, for example on Bullseye, please modify "dtoverlay = vc4-kms-v3d" to "dtoverlay = vc4-fkms-v3d" in the config file, otherwise it may fail to start. But on Buster, please comment out "dtoverlay = vc4-fkms-V3D" by adding #.
